@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Archivo-Regular', sans-serif;
+    src: url("Archivo-Regular.woff") format("woff"), url("Archivo-Regular.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: 'Archivo-Bold', sans-serif;
+    src: url("Archivo-Bold.woff") format("woff"), url("Archivo-Bold.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Inter', sans-serif;
+    src: url("ter-Regular.woff") format("woff"), url("ter-Regular.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 400;
+}
