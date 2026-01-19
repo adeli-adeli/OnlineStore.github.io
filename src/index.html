@@ -12,23 +12,26 @@
     <link rel="stylesheet" href="style/global.css">
 </head>
 <body>
-<header class="header ">
-    <div class="header-contact">
-        <a href="tel: +7 925 343 16 96" class="header-contact__telephone ">+7 925 343 16 96</a>
-        <span class="header-contact__callback">Перезвоните мне</span>
-    </div>
+<header class="header">
+    <nav class="header-container">
+        <div class="header-contact">
+            <a href="tel: +7 925 343 16 96" class="header-contact__telephone title-xs ">+7 925 343 16 96</a>
+            <span class="header-contact__callback text-xs">Перезвоните мне</span>
+        </div>
 
-    <div class="header-logo">
-        <a href="" class="header-logo__title ">
-            Famfactory
-        </a>
-        <span class="header-logo__subtitle title-medium">Швейная фабрика</span>
-    </div>
+        <div class="header-logo">
+            <a href="" class="header-logo__title title-s">
+                Famfactory
+            </a>
+            <span class="header-logo__subtitle text-s">Швейная фабрика</span>
+        </div>
 
-    <div class="header-contact">
-        <a href="mailto: MAIL@FAMFACTORY.RU" class="header-contact__email ">MAIL@FAMFACTORY.RU</a>
-        <span class="header-contact__description ">Наша почта</span>
-    </div>
+        <div class="header-contact">
+            <a href="mailto: MAIL@FAMFACTORY.RU" class="header-contact__email title-xs">MAIL@FAMFACTORY.RU</a>
+            <span class="header-contact__description text-xs">Наша почта</span>
+        </div>
+    </nav>
+
 </header>
 <main class="content">
 
@@ -38,14 +41,14 @@
                 Сделано<br>в Санкт-Петербурге
             </h1>
 
-            <button class="banner-content__button" type="submit">
+            <button class="banner-content__button" type="button">
                 Отправить запрос
             </button>
         </div>
     </section>
 
     <section class="merchandiser container">
-        <header class="merchandiser-header">
+        <header class="merchandiser__header">
             <h2 class="merchandiser-title title--big">
                 Современный
                 мерчендайзер для бизнеса
@@ -63,7 +66,7 @@
         <div class="merchandiser__wrapper">
             <ul class="merchandiser__list">
                 <li class="merchandiser__item">
-                    <img src="./image/1.jpg" alt="Девушка в желтом худи" class="merchandiser__image">
+                    <img src="./image/1.jpg" alt="Девушка в желтом худи" class="merchandiser__image" >
                     <h3 class="merchandiser__title" data-title="от 1650 ₽">
                         Худи
                     </h3>
@@ -108,7 +111,7 @@
         <div class="production__video container ">
             <div class="production__video-wrapper">
                 <img class="production__video-file" src="image/video.jpg" alt="Постер видео">
-                <div class="overlay"></div>
+                <div class="production__overlay"></div>
                 <p class="production__video-title title--banner">
                     Презентация нашей
                     коллекции одежды 2021
@@ -134,7 +137,7 @@
                     </p>
                 </div>
             </header>
-            <div class="production-wrapper ">
+            <div class="production__wrapper ">
                 <ul class="production__list">
                     <li class="production__item">
                         <article class="production__card">
@@ -209,7 +212,7 @@
                     <img class="process__image" src="image/man_mask2.jpg" alt="Мальчик в маске" width="575"
                          height="350">
 
-                    <div class="overlay"></div>
+                    <div class="process__overlay"></div>
                 </div>
 
                 <h3 class="process__content-title title--banner">
@@ -239,7 +242,7 @@
                 </div>
             </header>
 
-            <div class="process-wrapper ">
+            <div class="process__wrapper ">
                 <ul class="process__list">
                     <li class="process__item">
                         <article class="process__card">
@@ -306,28 +309,28 @@
         <div class="we-sew__content">
             <ul class="we-sew__list">
                 <li class="we-sew__item">
-                    <img src="image/we-sew/1.jpg" alt="Девушка в желтом худи" class="we-sew__image" width="351"
-                         height="351">
+                    <img src="image/we-sew/1.jpg" alt="Девушка в желтом худи" class="we-sew__image" width="1920"
+                         height="1280">
                 </li>
                 <li class="we-sew__item">
                     <img src="image/we-sew/2.jpg" alt="Парень в черной футболе с надписью VSRAP"
-                         class="we-sew__image" width="351" height="351">
+                         class="we-sew__image" width="1920" height="1280">
                 </li>
                 <li class="we-sew__item">
-                    <img src="image/we-sew/3.jpg" alt="Девушка в сером худи" class="we-sew__image" width="351"
-                         height="351">
+                    <img src="image/we-sew/3.jpg" alt="Девушка в сером худи" class="we-sew__image" width="1920"
+                         height="1280">
                 </li>
                 <li class="we-sew__item">
-                    <img src="image/we-sew/4.jpg" alt="Девушка в синих трико и худи" class="we-sew__image" width="351"
-                         height="351">
+                    <img src="image/we-sew/4.jpg" alt="Девушка в синих трико и худи" class="we-sew__image" width="1920"
+                         height="1280">
                 </li>
                 <li class="we-sew__item">
                     <img src="image/we-sew/5.jpg" alt="Черный шопер с рисунком котика в розовом цвете"
-                         class="we-sew__image" width="351" height="351">
+                         class="we-sew__image" width="1920" height="1280">
                 </li>
                 <li class="we-sew__item">
-                    <img src="./image/6.jpg" alt="Черная кепка с надписью VSRAP" class="we-sew__image" width="351"
-                         height="351">
+                    <img src="./image/we-sew/6.jpg" alt="Черная кепка с надписью VSRAP" class="we-sew__image" width="1920"
+                         height="1280">
                 </li>
             </ul>
         </div>
@@ -389,7 +392,7 @@
                 <img class="collaboration__image" src="image/collaboration/6.jpg" alt="" width="1500" height="1500">
                 <img class="collaboration__image" src="image/collaboration/7.jpg" alt="" width="347" height="351">
                 <img class="collaboration__image" src="image/collaboration/8.jpg" alt="" width="351" height="351">
-                <img class="collaboration__image" src="image/collaboration/9.jpg" alt="" width="350" height="359">
+                <img class="collaboration__image" src="image/collaboration/9.jpg" alt="" width="351" height="351">
 
             </div>
 
@@ -402,20 +405,20 @@
     <div class="footer-content container">
 
         <div class="footer-contact">
-            <a href="tel: +7 925 343 16 96" class="footer-contact__telephone ">+7 925 343 16 96</a>
-            <span class="footer-contact__callback">Перезвоните мне</span>
+            <a href="tel: +7 925 343 16 96" class="footer-contact__telephone title-xs">+7 925 343 16 96</a>
+            <span class="footer-contact__callback text-xs">Перезвоните мне</span>
         </div>
 
         <div class="footer-logo ">
-            <a href="" class="header-logo__title ">
+            <a href="" class="footer-logo__title title-s">
                 Famfactory
             </a>
-            <span class="footer-logo__subtitle title-medium">Швейная фабрика</span>
+            <span class="footer-logo__subtitle text-s">Швейная фабрика в Санкт-Петербурге</span>
         </div>
 
         <div class="footer-contact">
-            <a href="mailto: MAIL@FAMFACTORY.RU" class="footer-contact__email ">MAIL@FAMFACTORY.RU</a>
-            <span class="footer-contact__description ">Наша почта</span>
+            <a href="mailto: MAIL@FAMFACTORY.RU" class="footer-contact__email title-xs">MAIL@FAMFACTORY.RU</a>
+            <span class="footer-contact__description text-xs">Наша почта</span>
         </div>
     </div>
 

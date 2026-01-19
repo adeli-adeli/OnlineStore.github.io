@@ -1,7 +1,22 @@
-* {
-    margin: 0;
-    padding: 0;
+/**
+  Нормализация блочной модели
+ */
+*, *::before, *::after {
     box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+}
+
+/*
+Упрощаем работу с изображением и видео
+*/
+img, video {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 :root {
@@ -80,6 +95,42 @@ li {
     font-weight: 800;
     text-align: center;
 }
+
+.text-xs {
+    font-family: inherit;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 1px;
+    color: var(--color-light);
+}
+
+.title-xs {
+    font-family: var(--font-family-Archivo-Bold), sans-serif;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 120%;
+    letter-spacing: 1px;
+    color: var(--color-light);
+}
+
+.title-s {
+    font-family: var(--font-family-Archivo-Bold), sans-serif;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 120%;
+    letter-spacing: 1px;
+    color: var(--color-light);
+    text-transform: uppercase;
+}
+
+.text-s {
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 1px;
+    color: var(--color-light);
+}
+
 
 .collaboration__content {
     display: flex;
